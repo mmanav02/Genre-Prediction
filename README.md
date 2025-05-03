@@ -61,7 +61,7 @@ Supervised Models Used:
 |   SVC             |   'C': 60, 'gamma': 'scale', 'kernel': 'rbf'                                             |   0.378      |
 
 Here's the Neural Network Model used:
-![Neural Network](NN.png)
+![Neural Network](ReadMe_Images/NN.png)
 
 Proposed a stacked model - convolutional neural network will be stacked on top of LGBoost for experimental purposes and their results will be generated using logistic regressor. The idea is to use a meta-model, that takes the predictions of these base models as input features and learns how to combine them in an optimal way. The meta-learner acts as a smart aggregator that balances the two.
 Models - LightGBM model and a Neural Network (NN).
